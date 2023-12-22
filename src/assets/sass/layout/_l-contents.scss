@@ -1,0 +1,17 @@
+// layout/_l-contents.scss
+
+@use "../global" as g;
+
+.l-contents {
+  $this: &;
+
+  background-color: rgba($color: #000000, $alpha: 0.05);
+
+  &__header {
+  }
+
+  &__body {
+    // @include g.font-clamp(24, 16, md, sm);
+		// @include g.clamp(padding-top, 150, 20);
+  }
+}
