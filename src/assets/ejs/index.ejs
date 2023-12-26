@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <%- include ('components/_head') %>
+  <body class="l-body">
+    <div class="l-container">
+      <%- include ('components/_header', {header: data.header.index}) %>
+
+      <div class="l-contents">
+        <div class="l-contents__header">.l-contents__header</div>
+        <!-- .l-contents__header -->
+        <div class="l-contents__body">.l-contents__body</div>
+        <!-- .l-contents__body -->
+        <div class="l-contents__footer">.l-contents__footer</div>
+        <!-- .l-contents__footer -->
+      </div>
+      <!-- .l-contents -->
+
+      <%- include ('components/_footer') %>
+    </div>
+    <!-- .l-container -->
+    <%- include ('components/_scripts') %>
+  </body>
+</html>
